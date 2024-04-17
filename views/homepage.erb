@@ -1,0 +1,9 @@
+ <h1>Currency pairs</h1>
+
+<% @parsed_data.keys %>
+
+<ul>
+<% @currencies.each do |a_currency| %>
+  <li> Convert 1 <%= a_currency %> to.. </li>
+<% end %>
+</ul>
